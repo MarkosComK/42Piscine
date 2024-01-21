@@ -1,32 +1,46 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_strstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/20 12:38:09 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/20 12:41:46 by marsoare         ###   ########.fr       */
+/*   Created: 2024/01/17 12:17:37 by marsoare          #+#    #+#             */
+/*   Updated: 2024/01/17 15:14:16 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stddef.h>
 
-void	ft_putstr(char *str)
+char	*ft_strstr(char *str, char *to_find)
 {
 	int	i;
+	int	j;
 
 	i = 0;
-	while (str[i] != 0)
+	while (str[i] != '\0')
 	{
-		write(1, &str[i], 1);
+		j = 0;
+		while (to_find[j] != '\0' && str[i + j] == to_find[j])
+		{
+			j++;
+		}
+		if (to_find[j] == '\0')
+		{
+			return (&str[i]);
+		}
 		i++;
 	}
+	return (0);
 }
 /*
-int	main(void)
+int	main()
 {
-	char	string[6] = "Markos";
-	ft_putstr(string);
+	char	str1[15] = "Markos Vinicius";
+	char	str2[15] = "Vinicius";
+	char	*result;
+
+	result = ft_strstr(str1, str2);
+	write(1, result, 15);
 }
 */

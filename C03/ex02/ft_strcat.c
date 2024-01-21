@@ -1,34 +1,60 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/20 12:12:05 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/20 16:29:33 by marsoare         ###   ########.fr       */
+/*   Created: 2024/01/16 22:48:30 by marsoare          #+#    #+#             */
+/*   Updated: 2024/01/21 14:36:15 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+/*
 int	ft_strlen(char *str)
 {
+	int	cont;
+
+	cont = 0;
+	while (*str)
+	{
+		cont++;
+		str++;
+	}
+	return (cont);
+}
+*/
+char	*ft_strcat(char *dest, char *src)
+{
+	int	j;
 	int	i;
 
+	j = 0;
 	i = 0;
-	while (str[i] != 0)
+	while (dest[i] != 0)
 	{
 		i++;
 	}
-	return (i);
+	while (src[j] != 0)
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+	dest[i] = 0;
+	return (dest);
 }
 /*
+#include <unistd.h>
+#include <stdio.h>
 int	main(void)
 {
-	char	string[6] = "Markos";
-	int	i;
+	char	str1[10] = "+mar";
+	char	str2[10] = "kos";
+	char	str3[10] = "+mar";
+	char	str4[10] = "kos";
 
-	i = ft_strlen(string);
-	i += 48;
-	write(1, &i, 1);
+	printf("%s", ft_strcat(str1, str2));
+	printf("%s", strcat(str3, str4));
+
 }
 */

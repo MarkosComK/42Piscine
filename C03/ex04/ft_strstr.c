@@ -6,11 +6,9 @@
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/17 12:17:37 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/17 15:14:16 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/01/22 13:48:16 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stddef.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -27,13 +25,14 @@ char	*ft_strstr(char *str, char *to_find)
 		}
 		if (to_find[j] == '\0')
 		{
-			return (&str[i]);
+			return (str + i);
 		}
 		i++;
 	}
 	return (0);
 }
 /*
+#include <unistd.h>
 int	main()
 {
 	char	str1[15] = "Markos Vinicius";

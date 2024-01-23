@@ -12,18 +12,20 @@
 
 #include <unistd.h>
 
-void print(char a)
+void	print(char a)
 {
 	write(1, &a, 1);
 }
 
-void ft_print_comb2(void)
+void	ft_print_comb2(void)
 {
-	char a = 48;
-	print(a + '0');
+	char	a;
+
+	a = 48;
+	print (a + '0');
 }
 
-int main(void)
+int	main(void)
 {
 	ft_print_comb2();
 }

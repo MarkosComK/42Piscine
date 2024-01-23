@@ -6,10 +6,27 @@
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/22 18:11:52 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/22 18:51:23 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/01/23 20:40:56 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_is_prime(int nb)
+{
+	int	i;
+
+	i = 2;
+	if (nb <= 1)
+		return (0);
+	while (i <= (nb / 2))
+	{
+		if (!(nb % i))
+			return (0);
+		else
+			i += 1;
+	}
+	return (1);
+}
+/*
 int	ft_is_prime(int nb)
 {
 	if (nb == 1)
@@ -23,6 +40,7 @@ int	ft_is_prime(int nb)
 	else
 		return (0);
 }
+*/
 /*
 #include <stdio.h>
 int	main(void)

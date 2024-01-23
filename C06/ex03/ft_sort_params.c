@@ -1,33 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sqrt.c                                          :+:      :+:    :+:   */
+/*   ft_sort_params.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/22 17:14:18 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/23 20:43:30 by marsoare         ###   ########.fr       */
+/*   Created: 2024/01/23 17:23:55 by marsoare          #+#    #+#             */
+/*   Updated: 2024/01/23 17:29:35 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_sqrt(int nb)
+int	main(int argc, char **argv)
 {
-	int	i;
 
-	i = 1;
-	while (i * i <= nb && i < 46340)
-	{
-		if (i * i == nb)
-			return (i);
-		else
-			i++;
-	}
-	return (0);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%i", ft_sqrt(2147483647));
-}
-*/

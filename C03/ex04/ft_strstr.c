@@ -6,7 +6,7 @@
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/17 12:17:37 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/22 13:48:16 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/01/22 21:20:17 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ char	*ft_strstr(char *str, char *to_find)
 	int	j;
 
 	i = 0;
+	if (str[i] == '\0' && to_find[i] == '\0')
+		return (str);
 	while (str[i] != '\0')
 	{
 		j = 0;

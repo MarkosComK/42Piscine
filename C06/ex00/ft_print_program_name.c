@@ -6,7 +6,7 @@
 /*   By: marsoare <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 15:46:11 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/23 19:45:33 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/01/24 20:45:14 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -15,6 +15,7 @@ int	main(int argc, char **argv)
 {
 	int	c;
 
+	(void) argc;
 	c = 0;
 	while (argv[0][c] != 0)
 	{

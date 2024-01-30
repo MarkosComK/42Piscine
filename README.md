@@ -36,7 +36,7 @@ This repository contains code developed at **42 Piscine**, from **08/01/2024** t
 
 | C Project | Grade | Evaluation Information |
 | :--- | :--- | :--- |
-| [Piscine C 00](https://github.com/MarkosComK/42Piscine/tree/main/C00) | <img src="https://img.shields.io/badge/60%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
+| [Piscine C 00](https://github.com/MarkosComK/42Piscine/tree/main/C00) | <img src="https://img.shields.io/badge/85%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 | [Piscine C 01](https://github.com/MarkosComK/42Piscine/tree/main/C01) | <img src="https://img.shields.io/badge/100%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 | [Piscine C 02](https://github.com/MarkosComK/42Piscine/tree/main/C02) | <img src="https://img.shields.io/badge/55%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 | [Piscine C 03](https://github.com/MarkosComK/42Piscine/tree/main/C03) | <img src="https://img.shields.io/badge/100%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |

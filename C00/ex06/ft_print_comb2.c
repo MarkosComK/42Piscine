@@ -6,26 +6,65 @@
 /*   By: marsoare <marsoare@student.porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/11 16:49:08 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/11 17:21:09 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/01/30 22:06:23 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	print(char a)
+#include <unistd.h>
+
+void	print_char(char c)
 {
-	write(1, &a, 1);
+	write(1, &c, 1);
+}
+
+void	int_to_char(int i)
+{
+	int	tens;
+	int	ones;
+
+	if (i < 10)
+	{
+		print_char('0');
+		print_char(i + '0');
+	}
+	else
+	{
+		tens = i / 10;
+		ones = i % 10;
+		print_char(tens + '0');
+		print_char(ones + '0');
+	}
 }
 
 void	ft_print_comb2(void)
 {
-	char	a;
+	int	i;
+	int	j;
 
-	a = 48;
-	print (a + '0');
+	i = 0;
+	while (i <= 99)
+	{
+		j = i + 1;
+		while (j <= 99)
+		{
+			int_to_char(i);
+			print_char(' ');
+			int_to_char(j);
+			if (i < 98)
+			{
+				print_char(',');
+				print_char(' ');
+			}
+			j++;
+		}
+		i++;
+	}
 }
-
+/*
 int	main(void)
 {
 	ft_print_comb2();
 }
+*/

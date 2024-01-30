@@ -6,7 +6,7 @@
 /*   By: marsoare <marsoare@student.porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/11 12:46:32 by marsoare          #+#    #+#             */
-/*   Updated: 2024/01/11 18:07:37 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/01/30 22:32:19 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	print(char A, char B, char C)
 	write(1, &C, 1);
 	if (A != '7' || B != '8' || C != '9')
 	{
-		write(1, ", ", 1);
+		write(1, ", ", 2);
 	}
 }
 

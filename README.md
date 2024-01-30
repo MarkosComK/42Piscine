@@ -1,10 +1,9 @@
-# Project Title
+# 42Piscine
 
-This is a list of exercises i`ve made during the 42 piscine. 
-All exercises here passed on moulinette
-
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+<p align="center" >
+		<img alt='42' src='./Images/42Banner.png'/>
+    <img alt='42' src='./Images/Profile.jpeg' width="225"/>
+</p>
 
 <a href='https://profile.intra.42.fr/users/marsoare' target="_blank">
 		<img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000'/>
@@ -12,17 +11,17 @@ Initially appeared on
 </p>
 <a href="https://github.com/MarkosComK/42Piscine" target="_blank">
 	<img width="30" src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/main/src/img/parrots/laptop_parrot.gif">
-</a> > curl parrot.live
-<p>Star this repo to reach the others!</p>
+</a> 
 <p>
-	<a href="https://github.com/MarkosComK/42Piscine" target="_blank">
-		<img width="30" src="https://media.tenor.com/nBt6RZkFJh8AAAAj/never-gonna.gif">
-	</a>
-	And don't forget to  <b>$ 'curl ascii.live/rick'</b> someone if they left their pc unlocked 😆
-	<a href="https://github.com/MarkosComK/42Piscine" target="_blank">
-		<img width="30" src="https://media.tenor.com/nBt6RZkFJh8AAAAj/never-gonna.gif">
-	</a>
+> Type <strong>$ 'curl parrot.live'</strong> on terminal.
 </p>
+<br>
+<br>
+<p align="center">
+  <img alt="me" src="https://i.giphy.com/7DIF9HAz65YE8.webp">
+</p>
+<p align="center" >keep swiming</p>
+
 
 ##  About 🧐
 The **42 Piscine** is an intensive one-month program that exposes participants to the school's teaching methods, including peer-to-peer learning, group work, peer evaluation, and project-based learning. Participants dive headfirst into the work methods of 42 students for 26 days, engaging in intensive learning and dedicating a month to mastering programming skills.
@@ -32,7 +31,7 @@ This repository contains code developed at **42 Piscine**, from **08/01/2024** t
 
 | Shell Project | Grade | Evaluation Information |
 | :--- | :--- | :--- |
-| [Piscine Shell 00](https://github.com/MarkosComK/42Piscine/tree/main/S00) | <img src="https://img.shields.io/badge/100%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
+| [Piscine Shell 00](https://github.com/MarkosComK/42Piscine/tree/main/S00) | <img src="https://img.shields.io/badge/100%20%2F%20100-sucess"/> | `2 peers` `15 mins` `moulinette` |
 | [Piscine Shell 01](https://github.com/MarkosComK/42Piscine/tree/main/S01) | <img src="https://img.shields.io/badge/70%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 
 | C Project | Grade | Evaluation Information |
@@ -64,7 +63,11 @@ This repository contains code developed at **42 Piscine**, from **08/01/2024** t
 | Final Exam | `C` | 02-02-2024 | <img src="https://img.shields.io/badge/00%20%2F%20100%20%E2%98%85-sucess"/> | `8 hours` |
 
 </div>
+<p align="center" >
+  <img src="https://www.reactiongifs.com/r/2013/07/running.gif">
+</p>
 
+**Dont Panic**
 
 ## Authors
 

@@ -6,7 +6,7 @@
 /*   By: marsoare <marsoare@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/09 14:53:50 by marsoare          #+#    #+#             */
-/*   Updated: 2024/02/09 14:54:56 by marsoare         ###   ########.fr       */
+/*   Updated: 2024/02/11 14:57:05 by marsoare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ void	ft_swap(int *a, int *b)
 {
 	int	temp;
 
-	temp = a;
+	temp = *a;
 	*a = *b;
 	*b = temp;
 }

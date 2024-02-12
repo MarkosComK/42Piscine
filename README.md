@@ -60,7 +60,7 @@ This repository contains code developed at **42 Piscine**, from **08/01/2024** t
 | Exam 00 | `C` | 12-01-2024 | <img src="https://img.shields.io/badge/40%20%2F%20100%20%E2%98%85-sucess"/> | `4 hours` |
 | Exam 01 | `C` | 19-01-2024 | <img src="https://img.shields.io/badge/100%20%2F%20100%20%E2%98%85-sucess"/> | `4 hours` |
 | Exam 02 | `C` | 26-01-2024 | <img src="https://img.shields.io/badge/40%20%2F%20100%20%E2%98%85-sucess"/> | `4 hours` |
-| Final Exam | `C` | 02-02-2024 | <img src="https://img.shields.io/badge/00%20%2F%20100%20%E2%98%85-sucess"/> | `8 hours` |
+| Final Exam | `C` | 02-02-2024 | <img src="https://img.shields.io/badge/66%20%2F%20100%20%E2%98%85-sucess"/> | `8 hours` |
 
 </div>
 <p align="center" >

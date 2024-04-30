@@ -72,5 +72,5 @@ This repository contains code developed at **42 Piscine**, from **08/01/2024** t
 
 ## Authors
 
-  - **Markos Vinicius** - *42Pisciner at the moment* -
+  - **Markos Vinicius** - *42Student at the moment* -
     [Github](https://github.com/MarkosComK)

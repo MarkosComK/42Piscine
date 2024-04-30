@@ -44,6 +44,7 @@ This repository contains code developed at **42 Piscine**, from **08/01/2024** t
 | [Piscine C 05](https://github.com/MarkosComK/42Piscine/tree/main/C05)| <img src="https://img.shields.io/badge/80%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 | [Piscine C 06](https://github.com/MarkosComK/42Piscine/tree/main/C06)| <img src="https://img.shields.io/badge/100%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 | [Piscine C 07](https://github.com/MarkosComK/42Piscine/tree/main/C07) | <img src="https://img.shields.io/badge/60%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
+| [Piscine C 08](https://github.com/MarkosComK/42Piscine/tree/main/C08) | <img src="https://img.shields.io/badge/100%20%2F%20100-success"/> | `2 peers` `15 mins` `moulinette` |
 
 | Rush Project | Grade | Evaluation Information |
 | :--- | :--- | :--- |
